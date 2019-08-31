@@ -7,9 +7,20 @@
 }
 .heading-2 {
   @extend %heading;
+  font-size: 4rem;
+  font-style: initial;
+  &--light {
+    color: $color-grey-light-1;
+  }
+  &--dark {
+    color: $color-grey-dark-1;
+  }
 }
 .heading-3 {
   @extend %heading;
+  font-family: $font-display;
+  font-size: 1.6rem;
+  color: $color-primary;
 }
 .heading-4 {
   @extend %heading;
@@ -21,4 +32,31 @@
   &--dark {
     color: $color-grey-dark-1;
   }
+}
+
+.btn {
+  font-family: $font-display;
+  border: none;
+  text-transform: uppercase;
+  background-color: $color-primary;
+  color: #ffffff;
+  padding: 1.5rem 4rem;
+  transition: all 0.2s;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+// Margin Bottom Helper class
+.mb-sm {
+  margin-bottom: 2rem;
+}
+.mb-md {
+  margin-bottom: 3rem;
+}
+.mb-lg {
+  margin-bottom: 4rem;
+}
+.mb-hg {
+  margin-bottom: 8rem;
 }
