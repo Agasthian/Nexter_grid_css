@@ -4,7 +4,7 @@ Practice project on the Advanced CSS and Sass course by Jonas.io
 
 ## Live Website
 
-[Live]()
+[Live](https://agasthian.github.io/Nexter_grid_css/)
 
 ## Concepts
 
